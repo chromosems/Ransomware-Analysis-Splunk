@@ -14,7 +14,7 @@ Alice has seen this before... ransomware. After a quick conversation with Bob, A
 
 
 ### Tools Used
-- SPL
+- SPL Splunk
 ## Steps
 # 001 Question:
 What was the most likely IPv4 address of we8105desk on 24AUG2016?
