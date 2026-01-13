@@ -29,6 +29,7 @@ The SPL returns all Suricata alerts triggered by Cerber malware.
 With main focus on alerts.signature_id , aggregate the results statistically and on the table notice count with the lowest figure
 - <img width="856" height="199" alt="image" src="https://github.com/user-attachments/assets/694fb065-02a5-46d0-8ea3-8594019ec628" />
 
+# 003 Question:
 
 
 
