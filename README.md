@@ -32,7 +32,8 @@ With main focus on alerts.signature_id , aggregate the results statistically and
 # 003 Question:
 What was the first suspicious domain visited by we8105desk on 24AUG2016?
 - Suspicious domains are typically found in DBS logs meaning using the sourcetype=stream dns.
-- Narrowing the results to specific host and date 
+- Narrowing the results to specific host and date
+- 
 - <img width="640" height="282" alt="image" src="https://github.com/user-attachments/assets/13933fa5-4164-449e-9388-017c13c5ad65" />
 
 # 004 Question:
@@ -41,8 +42,21 @@ During the initial Cerber infection a VB script is run. The entire script from t
 -I am looking for the initial Cerber infection
 -A VBScript (.vbs) run by launching .exe
 -Splunk logs capture the full script, prepended by the .exe name in a single field and the question is asking for the length of this field, so basically searching for a string field .
-Start by a generic search to capture execution events (wermgr.exe)
- -<img width="768" height="406" alt="image" src="https://github.com/user-attachments/assets/5e7a1280-cd9c-4002-baf2-ca20a52a1e87" />
+Yet again working with sysmon files here and looking out for vbs files 
+-<img width="833" height="468" alt="image" src="https://github.com/user-attachments/assets/d3373848-2fb1-4ace-861d-82fd1e450675" />
+-Next base on the ParentCommandLine to access the length in a systimatic format
+-<img width="830" height="518" alt="image" src="https://github.com/user-attachments/assets/d26c4d79-6f48-4191-be25-b919510cecaf" />
+
+# 005 Question:
+What is the name of the USB key inserted by Bob Smith?
+-Start by looking through the win registry to find key path
+-<img width="592" height="509" alt="image" src="https://github.com/user-attachments/assets/1214ab8d-8735-4ff9-af68-8cfb4dba7657" />
+-<img width="691" height="566" alt="image" src="https://github.com/user-attachments/assets/0e02fa94-7a4f-49ee-8a41-0113b131ef1a" />
+
+
+
+
+ 
 
 
 
