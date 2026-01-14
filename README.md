@@ -53,6 +53,11 @@ What is the name of the USB key inserted by Bob Smith?
 -<img width="592" height="509" alt="image" src="https://github.com/user-attachments/assets/1214ab8d-8735-4ff9-af68-8cfb4dba7657" />
 -<img width="691" height="566" alt="image" src="https://github.com/user-attachments/assets/0e02fa94-7a4f-49ee-8a41-0113b131ef1a" />
 
+# 006 Question:
+Bob Smith's workstation (we8105desk) was connected to a file server during the ransomware outbreak. What is the IPv4 address of the file server?
+-Start by looking at the stream of traffic through smb  and using our src_ip and lookout for destination Ip and consider Ip with the highest traffic
+-<img width="330" height="200" alt="image" src="https://github.com/user-attachments/assets/3dc088f1-ea8c-4145-980e-7d999f1dcb3d" />
+
 
 
 
