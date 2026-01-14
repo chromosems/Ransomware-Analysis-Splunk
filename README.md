@@ -37,6 +37,14 @@ What was the first suspicious domain visited by we8105desk on 24AUG2016?
 
 # 004 Question:
 During the initial Cerber infection a VB script is run. The entire script from this execution, pre-pended by the name of the launching .exe, can be found in a field in Splunk. What is the length of the value of this field?
+-Keypoints
+-I am looking for the initial Cerber infection
+-A VBScript (.vbs) run by launching .exe
+-Splunk logs capture the full script, prepended by the .exe name in a single field and the question is asking for the length of this field, so basically searching for a string field .
+Start by a generic search to capture execution events (wermgr.exe)
+ -<img width="768" height="406" alt="image" src="https://github.com/user-attachments/assets/5e7a1280-cd9c-4002-baf2-ca20a52a1e87" />
+
+
 
 
 
