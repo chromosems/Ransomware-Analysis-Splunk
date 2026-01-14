@@ -30,6 +30,14 @@ With main focus on alerts.signature_id , aggregate the results statistically and
 - <img width="856" height="199" alt="image" src="https://github.com/user-attachments/assets/694fb065-02a5-46d0-8ea3-8594019ec628" />
 
 # 003 Question:
+What was the first suspicious domain visited by we8105desk on 24AUG2016?
+- Suspicious domains are typically found in DBS logs meaning using the sourcetype=stream dns.
+- Narrowing the results to specific host and date 
+- <img width="640" height="282" alt="image" src="https://github.com/user-attachments/assets/13933fa5-4164-449e-9388-017c13c5ad65" />
+
+# 003 Question:
+During the initial Cerber infection a VB script is run. The entire script from this execution, pre-pended by the name of the launching .exe, can be found in a field in Splunk. What is the length of the value of this field?
+-
 
 
 
