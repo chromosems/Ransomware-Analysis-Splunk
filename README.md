@@ -35,9 +35,9 @@ What was the first suspicious domain visited by we8105desk on 24AUG2016?
 - Narrowing the results to specific host and date 
 - <img width="640" height="282" alt="image" src="https://github.com/user-attachments/assets/13933fa5-4164-449e-9388-017c13c5ad65" />
 
-# 003 Question:
+# 004 Question:
 During the initial Cerber infection a VB script is run. The entire script from this execution, pre-pended by the name of the launching .exe, can be found in a field in Splunk. What is the length of the value of this field?
--
+
 
 
 
