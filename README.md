@@ -58,6 +58,20 @@ Bob Smith's workstation (we8105desk) was connected to a file server during the r
 -Start by looking at the stream of traffic through smb  and using our src_ip and lookout for destination Ip and consider Ip with the highest traffic
 - <img width="330" height="200" alt="image" src="https://github.com/user-attachments/assets/3dc088f1-ea8c-4145-980e-7d999f1dcb3d" />
 
+## 007 Question:
+What is the likely IPV4 address of someone  from Po1s0n1vy group scanning imreallynotbatman.com for web applications vulnerabilities
+- if they are scanning a network, it means they are sending inbound packets towards the web server , meaning its going to be a network -based event. so based on this, we gonna explore indexes like HTTP STREAMS, FGT_TRAFFIC (fortigate logs) and  SURICATA LOGS
+
+so first we set our time range based on the given case
+- <img width="609" height="316" alt="image" src="https://github.com/user-attachments/assets/9436c8bd-14ba-41eb-8003-409496cbc19a" />
+- Now, lets start with FGT_TRAFFIC (fortigate logs) in verbose state, and now  interesting fields to observe including URLs
+- <img width="1710" height="1057" alt="image" src="https://github.com/user-attachments/assets/6cce8795-2ef0-4a20-9308-68654abb25d7" />
+- taking a look at top values for the source Ip address as (Srcip) we notice Ip address
+- <img width="807" height="258" alt="image" src="https://github.com/user-attachments/assets/e125783e-3f59-44c7-8077-4bbf5264e896" />
+
+
+
+
 
 
 
