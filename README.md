@@ -68,6 +68,37 @@ so first we set our time range based on the given case
 - <img width="1710" height="1057" alt="image" src="https://github.com/user-attachments/assets/6cce8795-2ef0-4a20-9308-68654abb25d7" />
 - taking a look at top values for the source Ip address as (Srcip) we notice Ip address
 - <img width="807" height="258" alt="image" src="https://github.com/user-attachments/assets/e125783e-3f59-44c7-8077-4bbf5264e896" />
+- looking at count and %, we notice the IP has dominated the traffic. and this is an interesting finding. Since this is a firewall, lets look at the available actions within our results
+- <img width="773" height="291" alt="image" src="https://github.com/user-attachments/assets/3c3b2d6e-32bb-4fc4-917f-3464289bc955" />
+- The attacker was running a vulnerability scan, its possible the scans were blocked, so now lets add the blocked feature to our search
+- <img width="1388" height="1049" alt="image" src="https://github.com/user-attachments/assets/2abb633d-7754-45e1-a632-00c1f3cb506c" />
+- Now  starting to narrow down the search to only Blocked IPs, looking at srcIP again  narrowed to a single IP
+- <img width="797" height="213" alt="image" src="https://github.com/user-attachments/assets/166e8803-90c1-42bc-acc7-cf6a0253dbd3" />
+- opening one of this event and see what's available to us; notice under the action, the IP was blocked because it identified an attack scan from Acunetix software, which is a vulnerability scanner
+- <img width="748" height="1077" alt="image" src="https://github.com/user-attachments/assets/55387895-6a92-42eb-8daa-1d304c54912c" />
+
+## 008 What is the name of the file that defaced the imreallynotbatman.com website?
+- Starting by looking for a post request from one of the attack machines or GET request where someone is asking to receive from our webserver
+- <img width="1194" height="1064" alt="image" src="https://github.com/user-attachments/assets/5fe5e471-3a54-4198-a584-695e0bd88582" />
+- Next looking for get requests from http_method
+- <img width="909" height="471" alt="image" src="https://github.com/user-attachments/assets/8566f86c-e2ae-484b-95fc-3a928b5132b2" />
+- <img width="1337" height="1050" alt="image" src="https://github.com/user-attachments/assets/28327182-cda6-4ae6-8205-6fe77bb2a605" />
+- Now  look at the event type field and we get one result for file info
+- <img width="856" height="280" alt="image" src="https://github.com/user-attachments/assets/b58288c6-8965-48cd-9924-09f58c1985fb" />
+- clicking on file info and get file name
+- <img width="1218" height="1053" alt="image" src="https://github.com/user-attachments/assets/c4a06f1c-b557-41f3-9cab-a63ac71ffd2a" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
